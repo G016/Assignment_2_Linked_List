@@ -32,7 +32,6 @@ if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     llist_count = int(input())
-
     llist = SinglyLinkedList()
 
     for _ in range(llist_count):
